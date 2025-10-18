@@ -2,7 +2,7 @@ import express from "express";
 import fetch from "node-fetch";
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // Profile endpoint with dynamic cat fact
 app.get("/me", async (req, res) => {
@@ -62,5 +62,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
+    console.log(`app listening on port ${port}`);
 });
