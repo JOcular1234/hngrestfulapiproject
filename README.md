@@ -39,7 +39,7 @@ If you don't have Node.js, download it from [nodejs.org](https://nodejs.org/).
 
 1. **Clone this repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/JOcular1234/hngrestfulapiproject.git
    cd restful
    ```
 

@@ -1,13 +1,16 @@
 {
   "name": "restful",
   "version": "1.0.0",
+  "description": "Simple RESTful API that returns profile info and a random cat fact.",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Mfon-Obong Monday Umoh",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "express": "^4.21.0",
+    "node-fetch": "^3.3.2"
+  }
 }
